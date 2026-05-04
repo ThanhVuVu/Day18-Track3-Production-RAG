@@ -6,8 +6,9 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # --- API Keys ---
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
+NVIDIA_API_KEY = os.getenv("NVIDIA_API_KEY", "")
 COHERE_API_KEY = os.getenv("COHERE_API_KEY", "")
+HF_TOKEN = os.getenv("HF_TOKEN", "")
 
 # --- Qdrant ---
 QDRANT_HOST = "localhost"
@@ -16,8 +17,8 @@ COLLECTION_NAME = "lab18_production"
 NAIVE_COLLECTION = "lab18_naive"
 
 # --- Embedding ---
-EMBEDDING_MODEL = "BAAI/bge-m3"
-EMBEDDING_DIM = 1024
+EMBEDDING_MODEL = "intfloat/multilingual-e5-small"
+EMBEDDING_DIM = 384
 
 # --- Chunking ---
 HIERARCHICAL_PARENT_SIZE = 2048

@@ -4,5 +4,16 @@ __pycache__/
 *.pyc
 .pytest_cache/
 qdrant_data/
+qdrant_storage/
 *.egg-info/
 reports/*.json
+
+# Môi trường ảo
+env/
+venv/
+.env
+
+# File tạm & logs
+.ipynb_checkpoints/
+*.log
+.vscode/

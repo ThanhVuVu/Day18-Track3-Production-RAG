@@ -1,3 +1,82 @@
 [
-  {"question": "hihi cả nhà tự tạo testset bằng cơm nhé", "ground_truth": "Không kịp tạo luôn"},
+  {
+    "question": "Nhân viên có bao nhiêu ngày nghỉ phép năm?",
+    "ground_truth": "Nhân viên chính thức có 12 ngày nghỉ phép năm theo quy định."
+  },
+  {
+    "question": "Làm thế nào để tăng thêm số ngày nghỉ phép hàng năm?",
+    "ground_truth": "Cứ mỗi 5 năm làm việc, nhân viên sẽ được tăng thêm 1 ngày nghỉ phép năm."
+  },
+  {
+    "question": "Quy định về thời gian thông báo trước khi nghỉ phép là gì?",
+    "ground_truth": "Việc xin nghỉ phép phải được thông báo trước ít nhất 2 ngày làm việc."
+  },
+  {
+    "question": "Nếu tôi đã làm việc được 10 năm, tôi có tổng cộng bao nhiêu ngày phép?",
+    "ground_truth": "Bạn sẽ có 14 ngày phép (12 ngày mặc định + 2 ngày cộng thêm cho 10 năm thâm niên)."
+  },
+  {
+    "question": "Tôi có cần báo trước nếu muốn nghỉ phép không?",
+    "ground_truth": "Có, bạn cần thông báo trước ít nhất 2 ngày làm việc."
+  },
+  {
+    "question": "Làm thế nào để làm việc từ xa?",
+    "ground_truth": "Để làm việc từ xa, nhân viên cần kết nối vào mạng VPN của công ty."
+  },
+  {
+    "question": "Phần mềm nào cần thiết để truy cập VPN công ty?",
+    "ground_truth": "Nhân viên cần tải và cài đặt phần mềm FortiClient."
+  },
+  {
+    "question": "Địa chỉ server để cấu hình VPN là gì?",
+    "ground_truth": "Địa chỉ server VPN là vpn.company.com."
+  },
+  {
+    "question": "Thông tin đăng nhập VPN bao gồm những gì?",
+    "ground_truth": "Đăng nhập bằng email và mật khẩu nội bộ của công ty."
+  },
+  {
+    "question": "Công ty sử dụng phương thức xác thực nào cho VPN?",
+    "ground_truth": "Công ty sử dụng xác thực 2 lớp (2FA) qua ứng dụng Google Authenticator."
+  },
+  {
+    "question": "Tôi có thể dùng Google Authenticator để làm gì?",
+    "ground_truth": "Dùng để thực hiện xác thực 2 lớp khi đăng nhập vào hệ thống VPN."
+  },
+  {
+    "question": "Điều kiện để được hưởng 12 ngày phép năm là gì?",
+    "ground_truth": "Bạn phải là nhân viên chính thức của công ty."
+  },
+  {
+    "question": "Sau bao lâu thì số ngày phép của tôi bắt đầu tăng lên?",
+    "ground_truth": "Số ngày phép bắt đầu tăng thêm sau mỗi chu kỳ 5 năm làm việc."
+  },
+  {
+    "question": "Tôi muốn nghỉ vào thứ Tư, tôi phải báo muộn nhất là khi nào?",
+    "ground_truth": "Bạn phải thông báo muộn nhất vào thứ Hai (ít nhất 2 ngày làm việc)."
+  },
+  {
+    "question": "Tên phần mềm VPN công ty yêu cầu cài đặt là gì?",
+    "ground_truth": "Phần mềm đó là FortiClient."
+  },
+  {
+    "question": "Cần địa chỉ nào để kết nối vào hệ thống làm việc từ xa?",
+    "ground_truth": "Sử dụng địa chỉ vpn.company.com."
+  },
+  {
+    "question": "Mật khẩu dùng cho VPN lấy từ đâu?",
+    "ground_truth": "Sử dụng chính mật khẩu nội bộ mà bạn dùng cho các hệ thống khác của công ty."
+  },
+  {
+    "question": "Làm việc tại công ty 5 năm thì có bao nhiêu ngày phép?",
+    "ground_truth": "Bạn sẽ có 13 ngày phép (12 ngày gốc + 1 ngày thâm niên)."
+  },
+  {
+    "question": "Việc xác thực 2FA là bước thứ mấy trong quy trình kết nối VPN?",
+    "ground_truth": "Đây là bước thứ 4, sau khi đã nhập email và mật khẩu."
+  },
+  {
+    "question": "Có thể dùng mật khẩu cá nhân để đăng nhập VPN không?",
+    "ground_truth": "Không, phải sử dụng email và mật khẩu nội bộ do công ty cấp."
+  }
 ]
